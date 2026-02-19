@@ -53,7 +53,7 @@ type wssListener struct {
 }
 
 /**
- *	Accept acceptF HTTP connection, and upgrade it to a websocket suitable for communication between ziti-browzer-runtime and Ziti Edge Router
+ *	Accept acceptF HTTP connection, and upgrade it to a websocket suitable for communication between zt-browzer-runtime and Ziti Edge Router
  */
 func (listener *wssListener) handleWebsocket(w http.ResponseWriter, r *http.Request) {
 	log := listener.log

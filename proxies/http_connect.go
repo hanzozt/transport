@@ -88,7 +88,7 @@ func (self *HttpConnectProxyDialer) Connect(c net.Conn, addr string) error {
 	if self.auth != nil {
 		req.SetBasicAuth(self.auth.User, self.auth.Password)
 	}
-	req.Header.Set("User-Agent", "ziti-transport")
+	req.Header.Set("User-Agent", "zt-transport")
 
 	if err := req.Write(c); err != nil {
 		return errors.Wrapf(err, "unable to send connect request to proxy server at %s", self.address)

@@ -85,7 +85,7 @@ func init() {
 		SerialNumber: big.NewInt(CA_cert),
 		Subject: pkix.Name{
 			CommonName:   "testCA",
-			Organization: []string{"Openziti"},
+			Organization: []string{"Openzt"},
 			Country:      []string{"US"},
 		},
 		NotBefore: time.Now(),
@@ -107,7 +107,7 @@ func init() {
 		SerialNumber: big.NewInt(Server_cert),
 		Subject: pkix.Name{
 			CommonName:   "testServer",
-			Organization: []string{"Openziti"},
+			Organization: []string{"Openzt"},
 			Country:      []string{"US"},
 		},
 		NotBefore: time.Now(),
@@ -135,7 +135,7 @@ func init() {
 		SerialNumber: big.NewInt(Client_cert),
 		Subject: pkix.Name{
 			CommonName:   "testClient",
-			Organization: []string{"Openziti"},
+			Organization: []string{"Openzt"},
 			Country:      []string{"US"},
 		},
 		NotBefore: time.Now(),
