@@ -17,9 +17,9 @@
 package transwarp
 
 import (
-	"github.com/openziti-incubator/cf"
-	"github.com/openziti/dilithium/protocol/westworld3"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt-incubator/cf"
+	"github.com/hanzozt/dilithium/protocol/westworld3"
+	"github.com/hanzozt/transport/v2"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"net"

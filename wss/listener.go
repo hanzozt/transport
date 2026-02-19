@@ -22,13 +22,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/openziti/identity"
-	transporttls "github.com/openziti/transport/v2/tls"
+	"github.com/hanzozt/identity"
+	transporttls "github.com/hanzozt/transport/v2/tls"
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt/transport/v2"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

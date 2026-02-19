@@ -26,9 +26,9 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"github.com/openziti/identity"
-	"github.com/openziti/transport/v2"
-	transporttls "github.com/openziti/transport/v2/tls"
+	"github.com/hanzozt/identity"
+	"github.com/hanzozt/transport/v2"
+	transporttls "github.com/hanzozt/transport/v2/tls"
 	log "github.com/sirupsen/logrus"
 )
 

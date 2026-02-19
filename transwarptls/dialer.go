@@ -17,11 +17,11 @@
 package transwarptls
 
 import (
-	"github.com/openziti-incubator/cf"
-	"github.com/openziti/dilithium/protocol/westlsworld3"
-	"github.com/openziti/dilithium/protocol/westworld3"
-	"github.com/openziti/identity"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt-incubator/cf"
+	"github.com/hanzozt/dilithium/protocol/westlsworld3"
+	"github.com/hanzozt/dilithium/protocol/westworld3"
+	"github.com/hanzozt/identity"
+	"github.com/hanzozt/transport/v2"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"net"

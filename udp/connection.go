@@ -18,7 +18,7 @@ package udp
 
 import (
 	"crypto/x509"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt/transport/v2"
 	"io"
 	"net"
 )

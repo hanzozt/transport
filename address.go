@@ -18,7 +18,7 @@ package transport
 
 import (
 	"fmt"
-	"github.com/openziti/identity"
+	"github.com/hanzozt/identity"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/proxy"

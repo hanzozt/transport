@@ -1,4 +1,4 @@
-module github.com/openziti/transport/v2
+module github.com/hanzozt/transport/v2
 
 go 1.24.0
 
@@ -8,10 +8,10 @@ require (
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/websocket v1.5.3
 	github.com/michaelquigley/pfxlog v0.6.10
-	github.com/openziti-incubator/cf v0.0.3
-	github.com/openziti/dilithium v0.3.5
-	github.com/openziti/foundation/v2 v2.0.87
-	github.com/openziti/identity v1.0.125
+	github.com/hanzozt-incubator/cf v0.0.3
+	github.com/hanzozt/dilithium v0.3.5
+	github.com/hanzozt/foundation/v2 v2.0.87
+	github.com/hanzozt/identity v1.0.125
 	github.com/pion/dtls/v3 v3.0.10
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.4

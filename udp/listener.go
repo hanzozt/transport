@@ -19,9 +19,9 @@ package udp
 import (
 	"bufio"
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/identity"
-	"github.com/openziti/transport/v2"
-	"github.com/openziti/transport/v2/udpconn"
+	"github.com/hanzozt/identity"
+	"github.com/hanzozt/transport/v2"
+	"github.com/hanzozt/transport/v2/udpconn"
 	"github.com/sirupsen/logrus"
 	"io"
 	"math"

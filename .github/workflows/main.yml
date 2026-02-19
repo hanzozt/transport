@@ -23,7 +23,7 @@ jobs:
           go-version-file: ./go.mod
 
       - name: Install Ziti CI
-        uses: openziti/ziti-ci@v1
+        uses: hanzozt/ziti-ci@v1
 
       - name: Build and Test
         run: go test ./...
@@ -37,4 +37,4 @@ jobs:
         run: |
           $(go env GOPATH)/bin/ziti-ci configure-git
           $(go env GOPATH)/bin/ziti-ci tag -v -f version
-          $(go env GOPATH)/bin/ziti-ci trigger-github-build openziti/channel update-dependency --token ${{ secrets.ZITI_CI_GH_TOKEN }}
+          $(go env GOPATH)/bin/ziti-ci trigger-github-build hanzozt/channel update-dependency --token ${{ secrets.ZITI_CI_GH_TOKEN }}

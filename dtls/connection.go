@@ -18,7 +18,7 @@ package dtls
 
 import (
 	"crypto/x509"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt/transport/v2"
 	"github.com/pion/dtls/v3"
 	"github.com/pkg/errors"
 	"io"

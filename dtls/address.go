@@ -17,8 +17,8 @@
 package dtls
 
 import (
-	"github.com/openziti/identity"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt/identity"
+	"github.com/hanzozt/transport/v2"
 	"github.com/pkg/errors"
 	"io"
 	"math"

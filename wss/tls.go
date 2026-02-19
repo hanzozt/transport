@@ -21,7 +21,7 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/openziti/identity"
+	"github.com/hanzozt/identity"
 )
 
 func ClientTLSConfig(u url.URL, i *identity.TokenId) *tls.Config {

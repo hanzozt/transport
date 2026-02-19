@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/foundation/v2/concurrenz"
-	"github.com/openziti/foundation/v2/rate"
-	"github.com/openziti/identity"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt/foundation/v2/concurrenz"
+	"github.com/hanzozt/foundation/v2/rate"
+	"github.com/hanzozt/identity"
+	"github.com/hanzozt/transport/v2"
 	"github.com/sirupsen/logrus"
 )
 

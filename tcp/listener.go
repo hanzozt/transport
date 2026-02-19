@@ -18,7 +18,7 @@ package tcp
 
 import (
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/transport/v2"
+	"github.com/hanzozt/transport/v2"
 	"github.com/sirupsen/logrus"
 	"io"
 	"net"

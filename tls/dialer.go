@@ -19,9 +19,9 @@ package tls
 import (
 	"crypto/tls"
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/identity"
-	"github.com/openziti/transport/v2"
-	"github.com/openziti/transport/v2/proxies"
+	"github.com/hanzozt/identity"
+	"github.com/hanzozt/transport/v2"
+	"github.com/hanzozt/transport/v2/proxies"
 	"github.com/pkg/errors"
 	"time"
 )
